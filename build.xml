@@ -100,7 +100,7 @@
     <mkdir dir="${dist}/lib"/>
 
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
-    <jar jarfile="${dist}/lib/Virtualbox-${DSTAMP}.jar" basedir="${build}"/>
+    <jar jarfile="${dist}/lib/Virtualbox.jar" basedir="${build}"/>
   </target>
 
   <target name="clean"
