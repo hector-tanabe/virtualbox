@@ -31,7 +31,7 @@ public class Virtualbox {
         vbox = boxManager.getVBox();
         // System.out.println(getVBoxVersion());
         // System.out.println(machineExists("Fedora Server"));
-        createMachine();
+        // createMachine();
     }
 
     public static String getVBoxVersion() {
